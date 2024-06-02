@@ -1,0 +1,23 @@
+.search-bar-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.search-input {
+    background-color: #FFFFFF;
+    font-family: fantasy;
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #800080;
+    border-radius: 5px;
+    font-size: 19px;
+    outline: none;
+    text-align: left;
+}
+
+.search-input:focus {
+    border: 1px solid #800080;
+}
