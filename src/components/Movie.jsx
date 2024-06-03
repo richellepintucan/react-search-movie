@@ -18,7 +18,7 @@ const Movie = ({ movie }) => {
             </div>
 
             <div className="movie-details">
-                <h2>{movie.Title}</h2>\
+                <h2>{movie.Title}</h2>
                 <p>
                     <IoCalendarOutline color="white" size={24} /> {movie.Year}
                 </p>
